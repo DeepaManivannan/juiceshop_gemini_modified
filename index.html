@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepa Juice World</title>
+    <style>
+        /* Styling for the entire body */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: linear-gradient(to right, #ff9933, #ffcc99);
+        }
+
+        /* Styling for the header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header a {
+            text-decoration: none;
+            color: #000;  /* Ensure good contrast against white background */
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        /* Styling for the active navigation button with sufficient contrast */
+        header a.active {
+            color: #000;  /* Maintain black for active link (assuming good contrast with background) */
+            font-weight: bold;
+            /* Additional visual indication for active state (optional): */
+            border-bottom: 2px solid #ff9933; /* Add a subtle underline */
+        }
+
+        /* Styling for the main content area */
+        main {
+            padding: 40px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .juice-card {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .juice-card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .juice-card h3 {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .juice-card p {
+            margin-bottom: 15px;
+        }
+
+        /* Styling for the form section */
+        section {
+            padding: 40px;
+            background-color: #f2f2f2;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        form label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #ff9933;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Styling for the footer */
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #000;
+            margin-right: 10px;
+        }
+
+        footer i {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Deepa Juice World</a>
+        <a href="#" class="active">Home</a>
+        <a href="#">Products</a>
